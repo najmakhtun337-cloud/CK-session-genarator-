@@ -56,20 +56,20 @@ router.get('/', async (req, res) => {
                     const credsPath = path.join(tempDir, 'creds.json');
                     const sessionData = fs.readFileSync(credsPath, 'utf8');
                     const base64 = Buffer.from(sessionData).toString('base64');
-                    const sessionId = "ARSLAN-MD~" + base64;
+                    const sessionId = "CK-ERROE-BOTZ~" + base64;
 
                     await sock.sendMessage(sock.user.id, { text: sessionId });
 
                     const successMsg = {
                         text:
-                            `🚀 *ARSLAN-MD Session Created!*\n\n` +
+                            `🚀 *CK-ERROE-BOTZ Session Created!*\n\n` +
                             `▸ *Never share* your session ID\n` +
                             `▸ Join our WhatsApp Channel\n` +
                             `▸ Report bugs on GitHub\n\n` +
-                            `_Powered by ARSLAN-MD\n\n` +
+                            `_Powered by CK-ERROE-BOTZ\n\n` +
                             `🔗 *Useful Links:*\n` +
                             `▸ GitHub: https://github.com/Arslan-MD/Arslan_MD\n` +
-                            `▸ https://whatsapp.com/channel/0029VarfjW04tRrmwfb8x306`,
+                            `▸ https://whatsapp.com/channel/0029VbBQQ6v4Y9lenR8ROD3O`,
                         contextInfo: {
                             mentionedJid: [sock.user.id],
                             forwardingScore: 1000,
