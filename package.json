@@ -6,7 +6,7 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name ARSLAN-MD",
+    "start": "pm2 start index.js --deep-monitoring --attach --name CK-ERROR-BOTZ",
     "stop": "pm2 stop CK-ERROR-BOTZ",
     "restart": "pm2 restart CK-ERROR-BOTZ",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,7 +17,7 @@
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
     "@hapi/boom": "^10.0.1",
-    "@whiskeysockets/baileys": ""npm:wileys"",
+    "@whiskeysockets/baileys": "npm:wileys",
     "@types/node": "^18.0.6",
     "async-mutex": "0.4.1",
     "awesome-phonenumber": "^2.64.0",
